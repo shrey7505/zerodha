@@ -1,0 +1,62 @@
+/* Hero.css */
+
+#supportHero {
+  background-color: #337ecc; /* Zerodha-like blue */
+  color: white;
+}
+
+#supportHero a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+#supportHero a:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+#supportHero .input-group input {
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#supportHero .input-group input::placeholder {
+  color: #888;
+}
+
+#supportHero .input-group {
+  max-width: 100%;
+}
+
+#supportHero .d-flex.flex-wrap a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+#supportHero ol {
+  list-style-position: inside;
+}
+
+@media (max-width: 767px) {
+  #supportHero h4,
+  #supportHero h5 {
+    font-size: 1.2rem;
+  }
+
+  #supportHero .input-group input {
+    font-size: 0.9rem;
+  }
+
+  #supportHero .d-flex.flex-wrap a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
